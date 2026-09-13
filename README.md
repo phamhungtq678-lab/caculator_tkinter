@@ -4,6 +4,35 @@ Một ứng dụng máy tính cầm tay (Calculator) hoàn chỉnh được xây
 
 Dự án áp dụng chuẩn thiết kế **Module hóa (Separation of Concerns)** — tách biệt 100% giữa **Giao diện (UI)** và **Não bộ tính toán (Logic)**, giúp mã nguồn sạch sẽ, dễ bảo trì và dễ mở rộng.
 
+## DOWNLOAD DỰ ÁN VỀ MÁY TÍNH
+Để trải nghiệm ứng dụng máy tính này trên máy tính cá nhân của bạn, hãy làm theo các bước đơn giản sau:
+
+Bước 1: Yêu cầu trước khi cài đặt
+Máy tính đã cài đặt Python 3.x ((Lưu ý: Thư viện giao diện tkinter đã được tích hợp sẵn khi cài Python trên Windows/macOS, bạn không cần cài thêm gì cả).)
+
+Bước 2: Tải mã nguồn về máy tính (có nhiều cách tải dự án về và mình chọn cách này để down vì nó dành cho lập trình viên )
+
+
+-Tải nhanh bằng Git Mở Terminal (Mac/Linux) hoặc PowerShell / CMD (Windows) và gõ lệnh:  
+
+-git clone https://github.com/phamhungtq678-lab/caculator_tkinter.git
+
+
+Bước 3: Di chuyển vào thư mục dự án
+Mở Terminal / Command Prompt tại thư mục vừa tải về:
+-cd caculator_tkinter
+
+Bước 4: Khởi chạy ứng dụng máy tính! 🎉
+
+Gõ lệnh sau để bật giao diện máy tính lên:
+-python caculator_interface.py
+
+💡 Lưu ý nhỏ:
+Sau khi gõ lệnh, cửa sổ máy tính cầm tay sẽ lập tức xuất hiện trên màn hình của bạn và sẵn sàng thực hiện các phép tính!
+
+
+
+
 ---
 
 ## 📸 Giao diện ứng dụng
@@ -297,4 +326,6 @@ root.mainloop()
 2. **Kỹ thuật Cắt chuỗi (`Slicing`)**: `current_text[:-1]` là giải pháp ngắn gọn và tối ưu nhất để triển khai nút xóa lùi (Backspace) trong Python.
 3. **Quản lý lưới nâng cao (`Grid Layout`)**: Sự phối hợp giữa `columnspan`, `sticky="nsew"` và cấu hình `weight` của `columnconfigure`/`rowconfigure` tạo nên giao diện co giãn hoàn hảo.
 4. **Tránh bẫy Ràng buộc muộn (`Late Binding`)**: Khi gắn `lambda` vào vòng lặp `for`, bắt buộc phải gán tham số mặc định `lambda t=biến: ...` để tránh việc các nút nhận nhầm giá trị của vòng lặp cuối.
+
+
 
